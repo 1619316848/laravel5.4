@@ -183,14 +183,6 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Arcanedev\LogViewer\LogViewerServiceProvider::class,
 
-	    /**
-	     * 自动生成curd 模板 swagger API文档
-	     */
-	    Collective\Html\HtmlServiceProvider::class,
-	    Laracasts\Flash\FlashServiceProvider::class,
-	    Prettus\Repository\Providers\RepositoryServiceProvider::class,
-	    \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
-	    \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
     ],
 
     /*
@@ -244,10 +236,6 @@ return [
          * 第三方库
          */
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-
-	    'Form'      => Collective\Html\FormFacade::class,
-	    'Html'      => Collective\Html\HtmlFacade::class,
-	    'Flash'     => Laracasts\Flash\Flash::class,
     ],
 
 ];
